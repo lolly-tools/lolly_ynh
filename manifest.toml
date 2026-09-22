@@ -15,7 +15,7 @@ name = "Lolly"
 description.en = "Make on-brand images, PDFs, video, audio and documents on your own device, from your own brand"
 description.fr = "Créez des visuels, PDF, vidéos, sons et documents à votre marque, sur votre appareil"
 
-version = "1.0.9~ynh1"
+version = "1.0.9~ynh2"
 
 maintainers = ["Andy Fitzsimon"]
 
@@ -37,7 +37,7 @@ multi_instance = false
 # into and nothing for the SSO to sign the user into.
 ldap = "not_relevant"
 sso = "not_relevant"
-disk = "600M"
+disk = "1G"
 ram.build = "50M"
 ram.runtime = "50M"
 
